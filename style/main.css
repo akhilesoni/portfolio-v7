@@ -5,6 +5,15 @@ body{
 
 }
 
+.body{
+    transition: 00.3s;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background-color:rgb(139, 139, 139); ;
+}
+
 .animation{
     position: fixed;
     top: 0;

@@ -1,0 +1,25 @@
+.app1{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    height: 100%;
+    transition: 0.3s;
+    width: 100%;
+}
+.app1_image{
+    height: 100%;
+    position: absolute;
+}
+
+.description{
+    color: white;
+    font-family: 'Annie Use Your Telescope';
+    letter-spacing: 3px;
+}
+@media screen and  (max-width:600px){
+    .app1_image{
+        width: 100%;
+        position: absolute;
+        top: -20%;
+    }
+}
