@@ -1,13 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(139, 139, 139);
 
 }
 
 .animation{
-    background-color: rgb(139, 139, 139);
     position: fixed;
     top: 0;
+    transition: 0.3s;
     left: 0;
     width: 100%;
     height: 100%;
@@ -24,6 +25,10 @@ body{
     
 }
 
+
+.scrollview{
+    height: 1000%;
+}
 @media screen and  (max-width:600px){
     .image{
         width: 140%;
