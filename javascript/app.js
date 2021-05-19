@@ -35,7 +35,6 @@ window.addEventListener('scroll',()=>{
         animation.style.opacity = 0
         app1.style.transform = 'translateX(0px)'
         app1.style.opacity = 1
-        body.style.backgroundColor = '#009719'
 
     }
     else if(window.scrollY<1000){
@@ -44,6 +43,5 @@ window.addEventListener('scroll',()=>{
         animation.style.opacity = 1
         app1.style.transform = 'translateX(100px)'
         app1.style.opacity = 0
-        body.style.backgroundColor = '#030022'
     }
 })

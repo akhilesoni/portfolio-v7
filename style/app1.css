@@ -4,8 +4,7 @@
     top: 0;
     height: 100%;
     transition: 0.3s;
-    background-image: url(bac.jpg);
-    background-size: 100px;
+
     width: 100%;
 }
 .app1_image{
@@ -87,6 +86,14 @@
     margin: 10px 10px;
     padding: 5px 10px;
 
+}
+
+.bubble{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.507);
 }
 
 @media screen and  (max-width:1000px){

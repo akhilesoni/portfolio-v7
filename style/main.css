@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(139, 139, 139);
+    background-color: rgb(88, 77, 243);
 
 }
 
@@ -11,7 +11,7 @@ body{
     position: fixed;
     top: 0;
     height: 100%;
-    background-color:rgb(139, 139, 139); ;
+    background-image: linear-gradient(to top,rgb(114, 105, 245),rgb(88, 77, 243));
 }
 
 .animation{
