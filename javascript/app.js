@@ -30,7 +30,7 @@ button.addEventListener('click',()=>{
 
 window.addEventListener('scroll',()=>{
     if(window.scrollY>1000){
-        nav.style.display = "none"
+        nav.style.opacity = 0
         animation.style.transform = 'translateX(100px)'
         animation.style.opacity = 0
         app1.style.transform = 'translateX(0px)'
@@ -38,10 +38,12 @@ window.addEventListener('scroll',()=>{
 
     }
     else if(window.scrollY<1000){
-        nav.style.display = "block"
+        nav.style.opacity = 1
         animation.style.transform = 'translateX(0px)'
         animation.style.opacity = 1
         app1.style.transform = 'translateX(100px)'
         app1.style.opacity = 0
     }
+
+    
 })
