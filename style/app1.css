@@ -5,7 +5,7 @@
     height: 100%;
     transition: 0.3s;
     background-image: url(bac.jpg);
-    background-size: 50px;
+    background-size: 100px;
     width: 100%;
 }
 .app1_image{
@@ -68,6 +68,22 @@
     border-radius: 20px;
     cursor: pointer;
     
+}
+.meter{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.meter a{
+    color: white;
+    font-family: 'Annie Use Your Telescope' ;
+    text-decoration: none;
+    margin: auto;
+    padding: 10px;
 }
 
 @media screen and  (max-width:1000px){
