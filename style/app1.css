@@ -4,6 +4,7 @@
     top: 0;
     height: 100%;
     transition: 0.3s;
+    background-image: url(bac.png);
     width: 100%;
 }
 .app1_image{
@@ -57,11 +58,14 @@
     bottom: 100px;
     transition: 0.5s;
     padding: 10px 0;
+    font-weight: 600;
+    letter-spacing: 3px;
     text-align: center;
     font-family: 'Annie Use Your Telescope';
     background-color: white;
     display: none;
     border-radius: 20px;
+    cursor: pointer;
     
 }
 
