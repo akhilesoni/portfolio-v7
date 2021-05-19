@@ -4,7 +4,8 @@
     top: 0;
     height: 100%;
     transition: 0.3s;
-    background-image: url(bac.png);
+    background-image: url(bac.jpg);
+    background-size: 50px;
     width: 100%;
 }
 .app1_image{
