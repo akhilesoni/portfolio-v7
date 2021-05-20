@@ -1,0 +1,21 @@
+.project_gate{
+    position: relative;
+    margin-top: 30%;
+}
+
+
+.room{
+   width: 60%;
+   margin: 10% 20% ;
+}
+
+@media screen and  (max-width:600px){
+    .room{
+        width: 100%;
+        margin: 0;
+    }
+
+    .project_gate{
+        margin-top: 10%;
+    }
+}
