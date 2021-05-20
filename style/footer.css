@@ -1,0 +1,124 @@
+.footer{
+    background-color: rgb(149, 149, 224);
+    position: relative;
+}
+
+
+.boy{
+    height: 500px;
+    width: 100%;
+}
+.connect_message{
+    width: 90%;
+    margin:10% 5% 3% 5%;
+}
+
+.connect_button{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 30px;
+    margin: auto;
+    font-family: 'Annie Use Your Telescope';
+
+}
+
+.description{
+    background-image: linear-gradient(to top, rgb(193, 233, 235),rgb(206, 206, 250));
+    height: 500px;
+    opacity: 0;
+    width: 250px;
+    transition: 0.5s;
+    top: 0;
+    top: 50%;
+    border: 15px solid black;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 9999;
+    margin-top: -250px;
+    left: 50%;
+    margin-left: -140px;
+
+    
+}
+
+.mobile_side_button{
+    height: 50px;
+    width: 20px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    left: -20px;
+}
+
+.description .notch{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+    border-radius: 20px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.exit{
+    background-color: red;
+    color: white;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    margin: 5%;
+    bottom: 10px;
+    width: 90%;
+    font-family: 'Annie Use Your Telescope';
+    font-weight: 600;
+    word-spacing: 3px;
+    font-size: 20px;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.link:hover{
+    background-color: rgb(255, 245, 226);
+}
+
+
+.links{
+    width: 100%;
+    
+    text-align: center;
+}
+
+.link{
+    width: 90%;
+    margin: 10px 5%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+
+.links a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Annie Use Your Telescope';
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.profile{
+    height: 100px;
+    width: 100px;
+    margin: 30px 0 0 0;
+    border-radius: 50%;
+    border: 3px solid rgb(95, 95, 95);
+}
+@media screen and (max-width:600px){
+    .boy{
+        height: 300px;
+    }
+}
