@@ -35,7 +35,7 @@ exit.addEventListener('click',()=>{
 
 })
 window.addEventListener('scroll',()=>{
-    if(window.scrollY<window.screen.height-100){
+    if(window.scrollY<window.screen.height-200){
         pg.style.opacity = 0
         pg.style.transform = "translateY(100px)"
         menu.style.visibility = 'visible'
@@ -51,7 +51,7 @@ window.addEventListener('scroll',()=>{
 
     }
 
-    if(window.scrollY<2*window.screen.height){
+    if(window.scrollY<window.screen.height+300){
         boy.style.opacity = 0
         boy.style.transform = "translateX(100px)"
 
