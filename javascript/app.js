@@ -53,13 +53,13 @@ window.addEventListener('scroll',()=>{
 
     if(window.scrollY<window.screen.height+300){
         boy.style.opacity = 0
-        boy.style.transform = "translateX(100px)"
+        boy.style.transform = "scale(0)"
 
    
      
     }else{
         boy.style.opacity = 1
-        boy.style.transform = "translateX(0px)"
+        boy.style.transform = "scale(1)"
 
 
 
