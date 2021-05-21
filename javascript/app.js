@@ -56,8 +56,7 @@ window.addEventListener('scroll',()=>{
         boy.style.transform = "translateX(100px)"
 
    
-        connectname.style.opacity = 0
-        connectname.style.transform = "translateX(100px)"
+     
     }else{
         boy.style.opacity = 1
         boy.style.transform = "translateX(0px)"
@@ -65,8 +64,7 @@ window.addEventListener('scroll',()=>{
 
 
 
-        connectname.style.opacity = 1
-        connectname.style.transform = "translateX(0px)"
+       
     }
 
 
