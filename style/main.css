@@ -15,6 +15,18 @@ body{
     
 }
 
+.dec_svg{
+    position: absolute;
+    top: 70%;
+    z-index: -1;
+}
+
+.dec1_svg{
+    position: absolute;
+    top: 180%;
+    z-index: -1;
+}
+
 .qoute{
     padding: 20px;
     transform: skewY(-10deg);
