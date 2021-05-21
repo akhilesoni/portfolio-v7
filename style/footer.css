@@ -1,23 +1,30 @@
 .footer{
-    background-color: rgb(149, 149, 224);
     position: relative;
 }
 
 
 .boy{
     height: 500px;
+    transition: 1s;
     width: 100%;
 }
 .connect_message{
     width: 90%;
     margin:10% 5% 3% 5%;
+    transition: 1s;
 }
 
+.foot_svg{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
 .connect_button{
     color: white;
     font-weight: 600;
     font-size: 30px;
     cursor: pointer;
+    
     width: fit-content;
     padding: 30px;
     margin: auto;
@@ -117,6 +124,25 @@
     border-radius: 50%;
     border: 3px solid rgb(95, 95, 95);
 }
+
+
+.snake_bar{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-family: 'Annie Use Your Telescope';
+    display: flex;
+}
+
+.snake_bar p{
+    margin: auto;
+    padding: 10px;
+}
+
+.snake_bar .location{
+    padding: 10px;
+    margin: auto;
+}
+
 @media screen and (max-width:600px){
     .boy{
         height: 300px;
