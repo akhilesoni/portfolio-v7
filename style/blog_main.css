@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(187, 183, 247);
+    font-family: 'Annie Use Your Telescope';
+    color: white;
+    overflow-x: hidden;
+}
+.blog_intro{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 60px 5% 20px 5%;
+    text-align: center;
+    position: relative;
+
+}
+
+.main_name{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    left: 0;
+    top: 0;
+ 
+}
+.my_name{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin: 0;
+}
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.c1{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    z-index: -1;
+    top: -100px;
+    left: -100px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(135, 131, 197),rgb(187, 183, 247));
+}
+
+
+.blog:hover{
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.158);
+    transform: scale(1.05);
+}
+
+.blogs_heading{
+    margin:0 auto;
+    width: fit-content;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.c2{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    z-index: -1;
+    top: -200px;
+    right: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(135, 131, 197),rgb(187, 183, 247));
+}
+
+.introduction{
+    padding-top: 50px;
+    text-align: center;
+ 
+}
+
+.blog_profile{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+.content{
+    color: black;
+    margin: 30px 5% -100px 5%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.blog_head{
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.sen{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.imp{
+    color: blue;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 255);
+}
+
+.image_wrapper{
+    text-align: center;
+}
+.image{
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+@media screen and  (max-width:600px){
+    .image{
+        width: 100%;
+    }
+}
