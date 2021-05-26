@@ -47,6 +47,13 @@ body{
     background-image: linear-gradient(rgb(135, 131, 197),rgb(187, 183, 247));
 }
 
+.video_frame{
+    width: 400px;
+    height: 300px;
+    border: 0;
+    border-radius: 10px;
+    margin: auto;
+}
 
 .blog:hover{
     box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.158);
